@@ -1,0 +1,18 @@
+.photo{
+    width: 240px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.aa{
+color:  #637387;
+font-size: 14px;
+
+}
+
+.cc{
+
+    margin-top: 15px;
+    font-size: 16px;
+}
