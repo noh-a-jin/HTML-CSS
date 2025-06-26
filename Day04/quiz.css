@@ -1,0 +1,15 @@
+.mini{width: 100px;
+height: 150px;
+text-align: center;}
+
+.photo{width: 100px;
+height: 100px;
+object-fit: cover;
+border-radius: 9999px;
+border: 2px solid gray;
+padding: 2px;
+margin-bottom: 5px;}
+
+.box{display: flex;
+flex-direction: row;
+gap: 20px;}
