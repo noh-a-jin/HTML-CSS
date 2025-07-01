@@ -1,0 +1,49 @@
+body{ height: 300vh;}
+
+.one{ width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aa{ background-color: #D980FA;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.bb{background-color: #B53471;
+width: 100px;
+height: 100px;
+
+position: relative;}
+
+.aa11{background-color: #9980FA;
+width: 100px;
+height: 100px;
+position: fixed;
+top: 20px;
+right: 10px;}
+
+.bb11{
+    background-color: #833471;
+    width: 100px;
+height: 100px;
+position: relative;
+}
+
+.bb>span{ position: absolute;
+bottom: 20px;
+right: 20px;
+color: beige;
+font-weight: bold;
+}
+
+.bb11>span{ position: absolute;
+    bottom: 10px;
+    left: 10px;
+color: white;
+font-weight: bold;
+}

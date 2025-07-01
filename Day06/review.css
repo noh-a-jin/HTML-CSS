@@ -1,0 +1,74 @@
+.con{
+}
+
+.a1{font-size: 20px;
+font-weight: bold;}
+
+.a2{font-size: 15px;
+margin-bottom: 10px;
+margin-top: 10px;}
+
+.big{ width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box1{ 
+width: 200px;
+height: 250px;
+background-image: url("11.jfif");
+background-size: cover;
+border-radius: 5px;
+padding: 10px 20px 10px 20px;
+
+}
+
+.box2{ 
+width: 200px;
+height: 250px;
+background-image: url("22.jfif");
+background-size: cover;
+border-radius: 5px;
+padding: 10px 20px 10px 20px;
+
+}
+
+.box3{ 
+width: 200px;
+height: 250px;
+background-image: url("33.jfif");
+background-size: cover;
+border-radius: 5px;
+padding: 10px 20px 10px 20px;
+
+}
+
+.box4{ 
+width: 200px;
+height: 250px;
+background-image: url("44.jfif");
+background-size: cover;
+border-radius: 5px;
+padding: 10px 20px 10px 20px;
+
+}
+
+.small{color: aliceblue;
+display: flex;
+flex-direction: column;
+padding: 3px;}
+
+.aa{font-size: 10px;
+text-decoration: underline;
+text-underline-offset: 5px;}
+.bb{font-size: 20px;}
+.cc{font-size: 20px;}
+.dd{font-size: 12px;}
