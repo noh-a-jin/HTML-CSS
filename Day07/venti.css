@@ -1,0 +1,26 @@
+button{
+    width: 60px;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 8px;
+        background-color: white;
+    border: none;
+    transition: all 0.5s;
+}
+
+.aa{
+
+     width: 60px;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 8px;
+    background-color: black;
+    color: aliceblue;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+
+
+}
