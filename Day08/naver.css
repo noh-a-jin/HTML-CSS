@@ -1,0 +1,45 @@
+section{
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.galo{
+    width: 500px;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+img{
+width: 100px;
+height: 120px;
+border-radius: 2px;
+overflow: hidden;
+
+}
+
+.box{width: 100px;
+height: 160px;
+overflow: hidden;
+transition: all 0.1s;
+
+}
+
+img:hover{
+transform: scale(1.1);
+cursor: pointer;
+
+}
+
+span{font-size: 9px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;}
+
+span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
