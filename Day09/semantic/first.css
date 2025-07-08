@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'PyeojinGothic-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2504-1@1.0/PyeojinGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.photo {
+  background-image: url(a.jpg);
+  height: 100vh;
+  background-size: cover;
+
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo > ::content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.photo > .contents > h2 {
+
+    text-align:  center;
+    color:  white;
+    font-size: 80px;
+    line-height: 1.2;
+    font-family: 'PyeojinGothic-Bold';
+}
