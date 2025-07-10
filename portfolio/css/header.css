@@ -5,6 +5,11 @@
     font-style: normal;
 }
 
+.firsthead{
+    display: none;
+   
+}
+
 header {width: 100vw;
 max-width: 1200px;
 margin: 0 auto;}
@@ -24,12 +29,17 @@ nav{display: flex;
     gap: 10px;
 }
 
+.logo{
+    padding-right: 15px;
+}
+
 .head {
       font-family: 'NEXON Lv1 Gothic OTF';
     border: none;
     background-color: transparent;
     font-size: 20px;
     padding-right: 17px;
+    font-weight: bold;
 }
 
 .comu{
@@ -65,3 +75,9 @@ border: none;
 }
 .up:hover{
     background-color: #349edb;}
+
+    @media screen and (max-width: 760px){
+        .firsthead{display: flex;}
+            
+        nav{display: none;}
+    }

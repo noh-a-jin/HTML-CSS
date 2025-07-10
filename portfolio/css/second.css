@@ -1,0 +1,105 @@
+.mook{width: 100vw;
+max-width: 1200px;
+margin: 0 auto;}
+
+h2{font-family: 'NEXON Lv1 Gothic OTF';
+font-size: 18px;
+font-weight: bold;
+}
+
+.deobogi {
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+     padding: 12px 0px;
+}
+
+.joa{font-family: 'NEXON Lv1 Gothic OTF';
+font-size: 13px;}
+
+.deodeo{font-family: 'NEXON Lv1 Gothic OTF';
+font-size: 16px;
+font-weight: bold;
+color: #0aa5ff;}
+
+.boim{display: none;
+   
+}
+.inteli {width: 100vw;
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+padding: 20px;
+gap: 20px;
+}
+
+.card {
+width: 172px;
+height: 230px;
+border-radius: 5px;
+object-fit: contain;
+position: relative;
+transition: all 0.3s;
+  overflow: hidden;
+
+
+}
+
+.many {
+color: white;
+font-size: 17px;
+position: absolute;
+bottom: 20px;
+left: 15px;
+font-weight: bold;
+}
+
+.remix{ position: absolute;
+bottom: 20px;
+right: 10px;
+color: white;
+font-size: 20px;
+font-weight: bold;}
+
+.oneone{background-image: url(/portfolio/images/hana.jfif)}
+.toto{background-image: url(/portfolio/images/dul.jfif)}
+.three{background-image: url(/portfolio/images/set.jfif)}
+.four{background-image: url(/portfolio/images/net.jfif)}
+.five{background-image: url(/portfolio/images/dasus.jfif)}
+.six{background-image: url(/portfolio/images/yusut.jfif)}
+
+.choo{
+    font-family: 'NEXON Lv1 Gothic OTF';
+font-size: 18px;
+font-weight: bold;}
+
+.bigcard{
+    width: 269px;
+    height: 237px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.3s;
+    overflow: hidden;
+  
+}
+
+.noname{ padding: 10px 0px;
+   }
+
+.bigcard:hover{
+    transform: scale(1.05);
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 760px){
+    .deodeo{display: none;}
+    .boim{display: block;}
+    .card{width: 284pw;
+    height: 379px;}
+   
+    
+}
